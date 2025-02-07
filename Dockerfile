@@ -1,5 +1,6 @@
 # Default on customising docker containers 
-FROM rocker/rstudio:4.4.2 
+# FROM rocker/rstudio:4.4.2 
+FROM --platform=linux/amd64 rocker/rstudio:4.4.2
 
 # Make sure renv in local machine first 
 # Typically pick cloud r-project; when popup shows up, select option given in repos 
